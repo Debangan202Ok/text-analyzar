@@ -12,7 +12,6 @@ export default function Mynavbar(props) {
           <Navbar.Brand to="/">Text App</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link to="/">Home</Nav.Link>
-            <Nav.Link to="/about">{props.about}</Nav.Link>
           </Nav>
           <Nav>
             <NavDropdown
